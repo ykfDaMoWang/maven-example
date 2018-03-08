@@ -1,0 +1,9 @@
+org.springframework.test.context.support.DefaultTestContextBootstrapper 2018-03-01 12:44:00,438-- INFO -- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6500df86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@402a079c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@59ec2012, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4cf777e8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2f686d1f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3fee9989]
+org.springframework.beans.factory.xml.XmlBeanDefinitionReader 2018-03-01 12:44:00,476-- INFO -- Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+org.springframework.context.support.GenericApplicationContext 2018-03-01 12:44:00,621-- INFO -- Refreshing org.springframework.context.support.GenericApplicationContext@4f970963: startup date [Thu Mar 01 12:44:00 CST 2018]; root of context hierarchy
+org.springframework.beans.factory.config.PropertyPlaceholderConfigurer 2018-03-01 12:44:00,694-- INFO -- Loading properties file from class path resource [jdbc.properties]
+org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor 2018-03-01 12:44:00,697-- INFO -- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+com.web.test.TestMyBatis 2018-03-01 12:44:01,339-- INFO -- {"age":11,"id":2,"name":"sss"}
+com.web.test.TestMyBatis 2018-03-01 12:44:01,340-- INFO -- {"age":11,"id":2,"name":"sss"}
+com.web.test.TestMyBatis 2018-03-01 12:44:01,377-- INFO -- {"age":11,"id":2,"name":"sss"}
+org.springframework.context.support.GenericApplicationContext 2018-03-01 12:44:01,379-- INFO -- Closing org.springframework.context.support.GenericApplicationContext@4f970963: startup date [Thu Mar 01 12:44:00 CST 2018]; root of context hierarchy

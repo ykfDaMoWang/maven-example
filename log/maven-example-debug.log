@@ -1,0 +1,46 @@
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,552-- DEBUG -- Returning cached instance of singleton bean 'sqlSessionFactory'
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,553-- DEBUG -- Returning cached instance of singleton bean 'lifecycleProcessor'
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,553-- DEBUG -- Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16e7dcfd: defining beans [userController,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,txcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,userMapper]; root of factory hierarchy
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,553-- DEBUG -- Retrieved dependent beans for bean 'sqlSessionFactory': [userMapper]
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,553-- DEBUG -- Retrieved dependent beans for bean 'userMapper': [userService]
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,554-- DEBUG -- Retrieved dependent beans for bean 'userService': [userController, com.web.test.TestMyBatis]
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,556-- DEBUG -- Retrieved dependent beans for bean 'dataSource': [transactionManager]
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,556-- DEBUG -- Retrieved dependent beans for bean 'transactionManager': [txAdvice]
+org.springframework.beans.factory.support.DefaultListableBeanFactory 2018-03-01 11:55:04,556-- DEBUG -- Retrieved dependent beans for bean '(inner bean)#51c693d': [txAdvice]
+org.springframework.beans.factory.support.DisposableBeanAdapter 2018-03-01 11:55:04,557-- DEBUG -- Invoking destroy method 'close' on bean with name 'dataSource'
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,419-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,436-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,446-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,526-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,526-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,527-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 11:55:34,527-- DEBUG -- ==>  Preparing: update user set name = ?, age = ? where id = ? 
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 11:55:34,528-- DEBUG -- ==> Parameters: sss(String), 11(Integer), 2(Integer)
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 11:55:34,600-- DEBUG -- <==    Updates: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,600-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,601-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:34,601-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,583-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,598-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,607-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,678-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,678-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,679-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 11:55:44,679-- DEBUG -- ==>  Preparing: update user set name = ?, age = ? where id = ? 
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 11:55:44,680-- DEBUG -- ==> Parameters: sss(String), 11(Integer), 2(Integer)
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 11:55:44,726-- DEBUG -- <==    Updates: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,726-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,726-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 11:55:44,727-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,244-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,260-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,268-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,339-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,339-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,340-- DEBUG -- <==      Total: 1
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 12:44:01,340-- DEBUG -- ==>  Preparing: update user set name = ?, age = ? where id = ? 
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 12:44:01,340-- DEBUG -- ==> Parameters: sss(String), 11(Integer), 2(Integer)
+com.web.mapper.UserMapper.updateByPrimaryKey 2018-03-01 12:44:01,376-- DEBUG -- <==    Updates: 1
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,376-- DEBUG -- ==>  Preparing: select id, name, age from user where id = ? 
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,376-- DEBUG -- ==> Parameters: 2(Integer)
+com.web.mapper.UserMapper.selectByPrimaryKey 2018-03-01 12:44:01,377-- DEBUG -- <==      Total: 1

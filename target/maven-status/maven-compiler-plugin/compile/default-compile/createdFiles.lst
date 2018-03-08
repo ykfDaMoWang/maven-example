@@ -1,0 +1,8 @@
+com\web\controller\UserController.class
+com\web\entity\User.class
+com\web\service\impl\UserService.class
+com\web\mapper\UserMapper.class
+com\web\util\Log4jUtil.class
+com\web\service\IUserService.class
+com\web\config\SwaggerConfig.class
+com\web\controller\BaseController.class
